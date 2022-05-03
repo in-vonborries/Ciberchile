@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciber-Chile</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,300;0,400;0,500;0,800;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"alt=""><img src="./imagenes/logo-ciberchile2.png" href="index.html" width="55" ></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="./pages/amenazas.html">Amenazas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="./pages/Parches.html">Parches</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="./pages/vulnerabilidades.html">Vulnerabilidades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="./pages/phishing.html">Phishing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="./pages/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                  </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="row mt-2">
+        <div class="col-12">
+            <div id="carrusel" class="carousel " data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carrusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carrusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carrusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./imagenes/banner4.png" class="d-block w-100" alt="slide1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./imagenes/banner3.png" class="d-block w-100" alt="slide2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./imagenes/banner2.png" class="d-block w-100" alt="slide3">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Atrás</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                  </button>
+            </div>
+        </div>
+    </div>
+
+        <main class="row mt-5 g-5">
+            <section class="col col-lg-4">
+                <!-- <h1 class="display-1 mb-2"> principal</h1> -->
+             <div class="row g-5">
+                 <div class="col-12 col-md-12">
+                    <article class="card g-3 mt-2">
+                        <img class="card-img-top round shrink" src="./imagenes/1-amenaza.png" alt="logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Titulo de tarjeta</h5>
+                            <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, soluta hic cum libero ad quas quis sapiente nostrum facilis molestiae inventore, corrupti dicta omnis distinctio officia. Dolorem, tempora. Natus, voluptate!
+                            </p>
+                            <a class="btn btn-primary boton-ver" href="./pages/amenazas.html">Ver amenazas</a>
+                        </div>
+                    </article>
+                    <article class="card mt-2">
+                        <img class="card-img-top round shrink" src="./imagenes/1-parche.png" alt="logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Titulo de tarjeta</h5>
+                            <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, soluta hic cum libero ad quas quis sapiente nostrum facilis molestiae inventore, corrupti dicta omnis distinctio officia. Dolorem, tempora. Natus, voluptate!
+                            </p>
+                            <a class="btn btn-primary boton-ver" href="./pages/Parches.html">Ver parches</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            </section>
+
+                 <section class="col col-lg-4">
+                     <!-- <h1 class="display-1 mb-2"> titulo</h1> -->
+                     <div class="row  g-5">
+                        <div class="col-12 col-md-12">
+                            <article class="card g-3 mt-2">
+                                <img class="card-img-top round shrink" src="./imagenes/1-vulnerabilidad.png" alt="logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Titulo de tarjeta</h5>
+                                    <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, soluta hic cum libero ad quas quis sapiente nostrum facilis molestiae inventore, corrupti dicta omnis distinctio officia. Dolorem, tempora. Natus, voluptate!
+                                    </p>
+                                    <a class="btn btn-primary boton-ver" href="./pages/vulnerabilidades.html">Ver vulnerabilidades</a>
+                                </div>
+                            </article>
+                            <article class="card g-3 mt-2">
+                                <img class="card-img-top round shrink" src="./imagenes/1-PHISHING.png" alt="logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Titulo de tarjeta</h5>
+                                    <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, soluta hic cum libero ad quas quis sapiente nostrum facilis molestiae inventore, corrupti dicta omnis distinctio officia. Dolorem, tempora. Natus, voluptate!
+                                    </p>
+                                    <a class="btn btn-primary boton-ver" href="./pages/phishing.html">Ver phishing</a>
+                                </div>
+                            </article>
+                     </div>
+                </div>
+            </section>
+
+            <section class="row d-lg-block col-lg-4 " g-5>
+                <h5>Más contenido</h5>
+                <div class="col-12">
+                    <img src="./imagenes/mensaje.png" alt="">
+                </div>
+                <div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, eos! Doloribus repellendus consectetur veniam doloremque ullam numquam voluptate amet, eaque laborum iure, magnam sint repudiandae minus facere earum iste! Eligendi.
+                </div>
+                <div>
+                    hola
+                </div>
+            </section>                                   
+        </main>
+        <footer class="row mt-2">
+            <div class="col-12 col-md-4 p-3 footer-box">
+                <ul>
+                    <h6 class="footer-list">Sobre nosotros</h6>
+                    <li class="footer-list">Historia</li>
+                    <li class="footer-list">Nuestras políticas</li>
+                    <li class="footer-list">Trabaja con nosotros</li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4 p-3">
+                <ul>
+                    <h6>Servicios</h6>
+                    <li>Gestión de Amenazas</li>
+                    <li>Threat Defense</li>
+                    <li>Gestión de vulnerabilidades</li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4 p-3">
+                <ul>
+                    <h6>Encuentranos en</h6>
+                    <div class="iconos">
+                        <a href="https://instagram.com" target="_blank" rel="noreferrer"><li><i class="bi bi-instagram iconos-mini"></i></li></a>
+                        <a href="https://linkedin.com/"target="_blank" rel="noreferrer"><li><i class="bi bi-linkedin iconos-mini"></i></li></a>
+                        <a href="https://twitter.com/"target="_blank" rel="noreferrer"><li><i class="bi bi-twitter iconos-mini"></i></li></a>
+                    </div>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
