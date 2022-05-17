@@ -1,0 +1,43 @@
+footer{
+    background-color: $bgcolor2;
+    color: $color2;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul h6{
+    font-weight: 500;
+    font-size: medium;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: row;
+    gap: 27px
+}
+
+.iconos-mini{
+    font-size: 20px;
+    font-weight: 100px;
+    color: $color3;
+}
+
+.iconos a{
+    text-decoration: none;
+    list-style: none;
+}
+
+$rrss: (
+    bi-instagram: $bgcolor2,
+    bi-linkedin: $bgcolor2,
+    bi-twitter: $bgcolor2,
+);
+
+@each $name, $color in $rrss {
+    .#{$name} {
+        background-color: color;
+        color: $color3;
+    }
+}

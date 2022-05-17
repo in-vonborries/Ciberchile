@@ -1,10 +1,9 @@
 {
   "name": "clear",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-  "start": "sass estilos.scss ./css/estilos.css -w --no-source-map -s compressed"
+    "start": "sass estilos.scss ./css/estilos.css -w --no-source-map -s compressed"
   },
   "repository": {
     "type": "git",
@@ -15,5 +14,6 @@
   "bugs": {
     "url": "https://github.com/in-vonborries/desafio-bootstrap/issues"
   },
-  "homepage": "https://github.com/in-vonborries/desafio-bootstrap#readme"
+  "homepage": "https://github.com/in-vonborries/desafio-bootstrap#readme",
+  "description": ""
 }

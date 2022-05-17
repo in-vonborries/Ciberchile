@@ -1,0 +1,48 @@
+body{
+    @extend .texto_base;
+    // font-family: 'Barlow', sans-serif;
+    // font-weight: 400;
+    // color: $color1;
+}
+
+.boton-ver{
+    @include botones ($bgcolor2);
+    // background-color: $bgcolor2;
+    // transition: background-color .5s;
+    // border-color: #2e2d2d;
+  }
+  
+.boton-ver:hover {
+    background-color: $bgcolor2;
+    color: $color3;
+    border-color: #2e2d2d;
+  }
+
+.view{
+    @include botones ($bgcolor2);
+    // background-color: $bgcolor2;
+    // transition: background-color .5s;
+    // border-color: #2e2d2d;
+
+    &:hover {
+        background-color: $bgcolor2;
+        color: $color3;
+        border-color: #2e2d2d;
+      }
+
+  }
+  
+
+.view2{
+    @include botones ($bgcolor);
+    // background-color: $bgcolor;
+    // transition: background-color .5s;
+    // border-color: #2e2d2d;
+
+    &:hover {
+        background-color: $bgcolor;
+        color: $color3;
+        border-color: #2e2d2d;
+      }
+
+}
