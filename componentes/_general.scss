@@ -4,75 +4,6 @@
     box-sizing: border-box  
 }
 
-// body{
-//     // font-family: 'Barlow', sans-serif;
-//     // font-weight: 400;
-//     // color: $color1;
-// }
-
-// .navbar{
-
-//     font-weight: 500;
-//     font-size: medium;
-//     background-color: #2e2d2d;
-// }
-
-// .nav-link{
-//     color: white;
-// }
-
-/* .slides-box{
-    height: 400px;
-    position: relative;
-}
-
-.slides-fotos{
-    height: 100%;
-} */
-
-// footer{
-//     background-color: #2e2d2d;
-//     color: white;
-// }
-
-// ul li{
-//     list-style: none;
-// }
-
-// ul h6{
-//     font-weight: 500;
-//     font-size: medium;
-// }
-
-// .boton-ver{
-//     background-color: $bgcolor2;
-//     transition: background-color .5s;
-//     border-color: #2e2d2d;
-//   }
-  
-// .boton-ver:hover {
-//     background-color: $bgcolor2;
-//     color: $color3;
-//     border-color: #2e2d2d;
-//   }
-
-// .iconos{
-//     display: flex;
-//     flex-direction: row;
-//     gap: 27px
-// }
-
-// .iconos-mini{
-//     font-size: 20px;
-//     font-weight: 100px;
-//     color: #42E8B4;
-// }
-
-// .iconos a{
-//     text-decoration: none;
-//     list-style: none;
-// }
-
 .card{
     border: none;
 }
@@ -110,44 +41,6 @@ transform: scale(0.8);
     border-color: #2e2d2d;
 }
 
-
-
-/* .view{
-    text-decoration: none;
-    color: #42E8B4;
-}
-
-.view:hover {
-    color: #42E8B4;
-  } */
-
-// .view{
-//     background-color: $bgcolor2;
-//     transition: background-color .5s;
-//     border-color: #2e2d2d;
-
-//     &:hover {
-//         background-color: $bgcolor2;
-//         color: $color3;
-//         border-color: #2e2d2d;
-//       }
-
-//   }
-  
-
-
-// .view2{
-//     background-color: $bgcolor;
-//     transition: background-color .5s;
-//     border-color: #2e2d2d;
-
-//     &:hover {
-//         background-color: $bgcolor;
-//         color: $color3;
-//         border-color: #2e2d2d;
-//       }
-
-// }
 
 
 
@@ -198,27 +91,3 @@ overflow: hidden;
     font-weight: 400;
     color: $color1;
 }
-
-  /* @media (max-width: 576px) { 
-    .slides-next{
-        background-color: palevioletred;
-        position: absolute;
-        bottom: 190px;
-    }
-   }
-
-   @media (min-width: 768px) {
-    .slides-next{
-        background-color: red;
-        position: absolute;
-        bottom: 122px;
-    }
-   }
-
-   @media (min-width: 992px) {
-    .slides-next{
-        background-color: purple
-        position: absolute;
-        bottom: 122px;
-    } 
-   } */
