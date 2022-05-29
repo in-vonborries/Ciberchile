@@ -46,3 +46,20 @@ body{
       }
 
 }
+
+.sobreciber{
+  // background-color: lightcoral;
+  display: flex;
+  padding: 1rem;
+  padding-top: 2rem;
+  text-align: center;
+
+ &__tit h5{
+  font-size: x-large;
+ } 
+
+ &__text span{
+   color: $color3;
+   font-style: italic;
+ }
+}
